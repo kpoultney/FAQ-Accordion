@@ -1,0 +1,55 @@
+:root {
+    --main-text-color: hsl(292, 16%, 49%);
+    --main-header-color: hsl(292, 42%, 14%);
+    background-color: hsl(275, 100%, 97%);
+}
+
+.header-background {
+    background-image: url("assets/images/background-pattern-desktop.svg");
+    background-size: cover;
+    height: 100%;
+    display: flex;
+}
+
+.main-background {
+    color: fff;
+    width: 400px;
+    height: 550px;
+    align-items: center;
+    justify-content: center;
+}
+
+.p1 {
+    margin: 0.0px 0.0px 0.0px 0.0px;
+    font: 2rem 'Work Sans';
+    -webkit-text-stroke: #000000
+}
+
+.p2 {
+    margin: 0.0px 0.0px 0.0px 0.0px;
+    text-align: center;
+    font: 2rem 'Work Sans';
+    color: #2f3d92;
+    -webkit-text-stroke: #2f3d92
+}
+
+.s1 {
+    font-kerning: none
+}
+
+.s2 {
+    font-kerning: none;
+    color: #000000;
+    -webkit-text-stroke: 0px #000000
+}
+
+.s3 {
+    text-decoration: underline;
+    font-kerning: none;
+    -webkit-text-stroke: 0px #2f3d92
+}
+
+.s4 {
+    text-decoration: underline;
+    font-kerning: none
+}
