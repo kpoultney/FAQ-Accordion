@@ -63,12 +63,18 @@
 
 h1 {
     font-weight: 700;
-    margin: -1.5rem 0rem;
+    margin-top: -1.5rem;
+    margin-bottom: 0.4rem;
 }
 
 h3 {
     font-size: 1.9rem;
     font-weight: 600;
+}
+
+h3:hover {
+    color: hsl(292, 78%, 44%);
+    cursor: pointer;
 }
 
 h4 {
@@ -108,7 +114,6 @@ hr {
     }
 
     .main-background {
-        margin-top: -15vh;
         width: 90%;
         border-radius: 1rem;
     }
