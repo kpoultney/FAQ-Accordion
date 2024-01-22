@@ -2,33 +2,41 @@
     --main-text-color: hsl(292, 16%, 49%);
     --main-header-color: hsl(292, 42%, 14%);
     background-color: hsl(275, 100%, 97%);
+    font-size: 16px;
+    font-family: 'Work Sans', sans-serif;
 }
 
 .header-background {
     background-image: url("assets/images/background-pattern-desktop.svg");
     background-size: cover;
-    height: 100%;
+    background-position: center;
+    height: 45vh;
+    margin: -1vw;
+    box-sizing: border-box;
     display: flex;
 }
 
 .main-background {
-    color: fff;
-    width: 400px;
-    height: 550px;
-    align-items: center;
-    justify-content: center;
+    /*display: flex;*/
+    background-color: #fff;
+    border-radius: 1rem;
+    margin: auto;
+    padding: 2% 5%; 
+    max-width: 65rem; 
+    width: 100%; 
+    box-sizing: border-box;
 }
 
 .p1 {
     margin: 0.0px 0.0px 0.0px 0.0px;
-    font: 2rem 'Work Sans';
-    -webkit-text-stroke: #000000
+    -webkit-text-stroke: #000000;
+    margin: 3rem;
 }
 
 .p2 {
     margin: 0.0px 0.0px 0.0px 0.0px;
+    padding-top: 1rem;
     text-align: center;
-    font: 2rem 'Work Sans';
     color: #2f3d92;
     -webkit-text-stroke: #2f3d92
 }
@@ -52,4 +60,37 @@
 .s4 {
     text-decoration: underline;
     font-kerning: none
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h3 {
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: var(--main-text-color);
+}
+
+hr {
+    margin-top: 2rem;
+    border-color: hsla(293, 16%, 49%, 0.106);
+}
+
+.title {
+    display: wrap;
+    flex-wrap: nowrap;
+    font-size: 5rem;
+}
+
+@media (max-width: 768px) {
+    .header-background {
+        height: 60vh;
+        margin: -3vw;
+    }
 }
